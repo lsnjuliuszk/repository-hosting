@@ -1,0 +1,38 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+
+/config/application.yml
+/doc/db/*.dbs.bak
+.DS_Store
+/ipunkt.backend/src/main/resources/application.yml
+/ipunkt.dbadvisor/src/main/resources/application.yml
+config/*.yml
+ipunkt.dbadvisor/tools/dictionary.importer/data/output/*.sql
+doc/conditionimport/~*.xlsx
