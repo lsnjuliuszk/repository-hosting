@@ -14,6 +14,14 @@
     </properties>
 
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/lsnjuliuszk/repository-hosting</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
